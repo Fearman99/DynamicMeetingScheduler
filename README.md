@@ -1,4 +1,4 @@
-# Dynamic Availability System
+# Dynamic Meeting Scheduler
 
 ## Overview
 
