@@ -1,4 +1,4 @@
-# Client Availability System
+# Dynamic Availability System
 
 ## Overview
 
@@ -25,60 +25,6 @@ The Client Availability System is a full-stack web application designed to manag
   - MongoDB
   - CORS for cross-origin requests
 
-## Deployed Application
-
-- **Frontend**: (https://clients-availability-lx6e.vercel.app)
-
-## Installation
-
-### Backend
-
-1. Clone the repository:
-
-    ```bash
-    git clone https:https://github.com/pk1427/clients-availability
-    cd clients-availability
-    cd backend
-    ```
-
-2. Install dependencies:
-
-    ```bash
-    npm install
-    ```
-
-3. Set up environment variables by creating a `.env` file in the `backend` directory with the following content:
-
-    ```
-    MONGO_URI=mongodb+srv://202151115:pF6mtrbAy7mT2LIh@cluster0.epyza.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-    PORT=5000
-    ```
-
-4. Start the backend server:
-
-    ```bash
-    npm start
-    ```
-
-### Frontend
-
-1. Navigate to the frontend directory:
-
-    ```bash
-    cd clients-availability
-    ```
-
-2. Install dependencies:
-
-    ```bash
-    npm install
-    ```
-
-3. Start the frontend development server:
-
-    ```bash
-    npm start
-    ```
 
 ## Usage
 
@@ -96,23 +42,4 @@ The Client Availability System is a full-stack web application designed to manag
 - **GET** `/api/schedule`: Retrieves scheduled sessions.
 - **POST** `/api/sessions`: Creates a new session.
 
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Commit your changes (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Create a new Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For any questions or feedback, please contact:
-
-- **Email**: prasadkapure553@gmail.com
-- 
-- **GitHub**: https://github.com/pk1427
 
