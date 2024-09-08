@@ -22,7 +22,7 @@ function Admin() {
 
   useEffect(() => { 
     // Fetch users from API and set them
-    axios.get('http://localhost:5000/api/users')
+    axios.get('https://dynamicmeetingscheduler.onrender.com/api/users')
       .then((response) => setUsers(response.data))
       .catch((error) => console.error('Error fetching users:', error));
   }, []);

@@ -17,7 +17,7 @@ function Login() {
     try {
       // Make API call to login the user with the email
       const response = await axios.post(
-        'http://localhost:5000/api/users/login',
+        'https://dynamicmeetingscheduler.onrender.com/api/users/login',
         { email },
         { withCredentials: true } // Send credentials (cookies, tokens) if required
       );
