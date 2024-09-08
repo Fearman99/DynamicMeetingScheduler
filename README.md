@@ -43,10 +43,3 @@ The Client Availability System is a full-stack web application designed to manag
 - **POST** `/api/sessions`: Creates a new session.
 
 
-
-For any questions or feedback, please contact:
-
-- **Email**: prasadkapure553@gmail.com
-- 
-- **GitHub**: https://github.com/pk1427
-
