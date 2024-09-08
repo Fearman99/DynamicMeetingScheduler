@@ -4,6 +4,8 @@
 
 The Client Availability System is a full-stack web application designed to manage client availability and event scheduling. It features a frontend built with React and TypeScript and a backend using Node.js, Express.js, and MongoDB. The application allows users to log in, view their availability, and schedule sessions with clients.
 
+**Backend** : https://dynamicmeetingscheduler.onrender.com
+
 ## Features
 
 - **User Authentication**: Secure login and session management.
@@ -42,6 +44,7 @@ The Client Availability System is a full-stack web application designed to manag
 - **GET** `/api/schedule`: Retrieves scheduled sessions.
 - **POST** `/api/sessions`: Creates a new session.
 
-- **Backend** : https://dynamicmeetingscheduler.onrender.com
+
+
 
 
