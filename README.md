@@ -42,6 +42,6 @@ The Client Availability System is a full-stack web application designed to manag
 - **GET** `/api/schedule`: Retrieves scheduled sessions.
 - **POST** `/api/sessions`: Creates a new session.
 
-- # Backend : https://dynamicmeetingscheduler.onrender.com
+- **Backend** : https://dynamicmeetingscheduler.onrender.com
 
 
